@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+	int select;
+	printf("-------------welcome to the bank of fast----------------");
+	printf("please select the options given below : \n");
+	while(1)
+	{
+		printf("1-Create account\n2-saving account\n3-balance check\n4-Deposit funds\n5-Withdraw funds\n6-Transaction history\n7-Exit \n");
+		scanf("%d",sel);
+		if(sel==5)
+		{
+			break;
+		}
+		else if(sel==1)
+		{
+			printf("welcome to your account : ");
+		}
+	}
+}
